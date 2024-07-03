@@ -65,7 +65,7 @@ const FileChooserPage = () => {
                 <Form>
                     <Container className="w-50 px-5">
                         <Row>
-                            <Form.Control type="file" accept=".json, .txt" onChange={handleFileChange} ref={fileInputRef}/>
+                            <Form.Control type="file" accept=".json, .txt, .csv" onChange={handleFileChange} ref={fileInputRef}/>
                             <Form.Control className="mt-4" as="textarea" value={fileData.fileText} rows={12} disabled />
                         </Row>
                         <Row xs="auto" className="justify-content-center mt-4">
